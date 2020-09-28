@@ -153,9 +153,9 @@ input[type = "text"]{
     height:1100px
 }
 .end_left{
+    width:300px;
     float:none !important;
-    margin:auto;
-    margin-left:300px
+    margin:auto
 }
 /*.end_right{
     float:none !important;
@@ -171,13 +171,13 @@ input[type = "text"]{
     height:1100px
 }
 .end_left{
+    width:300px;
     float:none !important;
-    margin:auto;
-    margin-left:300px
+    margin:auto
 }
-.end_right{
+/*.end_right{
     float:none !important;
     margin-bottom:400px;
     bottom:0px
-}
+}*/
 }
