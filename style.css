@@ -123,6 +123,9 @@ input[type = "text"]{
     .final_card{
         width:60%
     }
+    .middle{
+        height:auto
+    }
     .middle_3{
         background-color: rgb(167, 166, 166);
         font-size:25px;
