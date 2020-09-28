@@ -123,10 +123,13 @@ input[type = "text"]{
     position:relative;
     bottom:500px;
     padding:30px;
-    width:500px;
+    width:400px;
     height:100px;
     font-size:20px;
     line-height: 40px
+}
+.end_left{
+    width:380px
 }
 }
 @media screen and (max-width:805px){
@@ -141,10 +144,19 @@ input[type = "text"]{
 .middle{
     height:4100px !important
 }
+.end_right{
+    width:350px
+}
+.end_left{
+    width:330px
+}
 }
 @media screen and (max-width:825px){
     .end_right{
-        width:310px
+        width:300px
+    }
+    .end_left{
+        width:280px
     }
 }
 @media screen and (max-width:660px){
