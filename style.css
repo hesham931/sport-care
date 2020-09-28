@@ -121,7 +121,7 @@ input[type = "text"]{
 }
 /********************************************/
 .end{
-    height:1200px
+    height:1100px
 }
 .end_left{
     width:300px;
@@ -134,7 +134,7 @@ input[type = "text"]{
 .end_right{
     width:340px;
     float:none !important;
-    margin-bottom:400px;
+    margin-bottom:500px;
     bottom:0px
 }
 }
@@ -151,7 +151,7 @@ input[type = "text"]{
     height:4100px !important
 }
 .end{
-    height:1200px
+    height:1100px
 }
 .end_left{
     width:300px;
@@ -161,7 +161,7 @@ input[type = "text"]{
 .end_right{
     width:340px;
     float:none !important;
-    margin-bottom:400px;
+    margin-bottom:500px;
     bottom:0px
 }
 }
@@ -170,7 +170,7 @@ input[type = "text"]{
     width:250px
 }
 .end{
-    height:1200px
+    height:1100px
 }
 .end_left{
     width:300px;
@@ -180,7 +180,7 @@ input[type = "text"]{
 .end_right{
     width:340px;
     float:none !important;
-    margin-bottom:400px;
+    margin-bottom:500px;
     bottom:0px
 }
 }
