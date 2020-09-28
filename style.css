@@ -93,7 +93,7 @@ input[type = "text"]{
 .social{
     width:100%
 }
-@media screen and (max-width:991px){
+/*@media screen and (max-width:991px){
     .cards{
         display: block !important;
     }
@@ -137,4 +137,4 @@ input[type = "text"]{
     .end_right{
         width:350px
     }
-}
+}*/
