@@ -119,17 +119,24 @@ input[type = "text"]{
 .final_card{
     width:50%
 }
-.end_right{
-    position:relative;
-    bottom:500px;
-    padding:30px;
-    width:400px;
-    height:100px;
-    font-size:20px;
-    line-height: 40px
+/********************************************/
+.end{
+    height:1100px
 }
 .end_left{
-    width:380px
+    width:300px;
+    float:none !important;
+    margin:auto;
+    /*margin-left:300px*/
+}
+.end_left > img {
+    margin:auto
+}
+.end_right{
+    float:none !important;
+    margin:auto;
+    margin-bottom:400px;
+    bottom:0px
 }
 }
 @media screen and (max-width:805px){
@@ -144,29 +151,37 @@ input[type = "text"]{
 .middle{
     height:4100px !important
 }
-.end_right{
-    width:350px
+.end{
+    height:1100px
 }
 .end_left{
-    width:330px
+    float:none !important;
+    margin:auto;
+    margin-left:300px
 }
+.end_right{
+    float:none !important;
+    margin:auto;
+    margin-bottom:400px;
+    bottom:0px
 }
-@media screen and (max-width:825px){
-    .end_right{
-        width:300px
-    }
-    .end_left{
-        width:280px
-    }
 }
 @media screen and (max-width:660px){
-    .end_right{
-        width:270px
-    }
-    .end_left{
-        width:250px
-    }
 input[type = "text"]{
     width:250px
+}
+.end{
+    height:1100px
+}
+.end_left{
+    float:none !important;
+    margin:auto;
+    margin-left:300px
+}
+.end_right{
+    float:none !important;
+    margin:auto;
+    margin-bottom:400px;
+    bottom:0px
 }
 }
