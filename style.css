@@ -31,7 +31,6 @@ button[type = "button"]{
     width:500px
 }
 .middle_2{
-    margin:50px;
     padding:20px
 }
 .middle_3{
@@ -136,8 +135,5 @@ input[type = "text"]{
     }
     .end_right{
         width:350px
-    }
-    .middle_2{
-        margin:125px
     }
 }
