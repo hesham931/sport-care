@@ -93,18 +93,16 @@ input[type = "text"]{
 .social{
     width:100%
 }
-/*@media screen and (max-width:991px){
+@media screen and (max-width:991px){
+    .card{
+        margin:auto;
+        margin-bottom:40px;
+    }
     .cards{
         display: block !important;
     }
     .final_card{
-        width:500px
-    }
-    .middle {
-        height: 3900px !important;
-    }
-    iframe{
-        width:700px
+        width:50%;
     }
     .end_right{
         position:relative;
@@ -116,18 +114,17 @@ input[type = "text"]{
         line-height: 40px;
     }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:805px){
     .card{
-        width:350px
+        width:60%;
+        margin:auto;
+        margin-bottom:40px
     }
     .final_card{
-        width:350px
+        width:60%
     }
     .middle {
         height: 4000px !important;
-    }
-    iframe{
-        width:500px
     }
     .middle_3{
         background-color: rgb(167, 166, 166);
@@ -137,4 +134,17 @@ input[type = "text"]{
     .end_right{
         width:350px
     }
-}*/
+}
+@media screen and (max-width:660px){
+    .end_right{
+        width:300px
+    }
+    input[type = "text"]{
+        width:250px
+    }
+}
+@media screen and (max-width:610px){
+    .end_right{
+        width:250px
+    }
+}
