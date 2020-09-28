@@ -116,12 +116,12 @@ input[type = "text"]{
 }
 @media screen and (max-width:805px){
     .card{
-        width:70%;
+        width:90%;
         margin:auto;
         margin-bottom:40px
     }
     .final_card{
-        width:70%
+        width:90%
     }
     .middle{
         height:5000px !important
