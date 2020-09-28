@@ -131,11 +131,11 @@ input[type = "text"]{
 .end_left > img {
     margin:auto
 }
-/*.end_right{
+.end_right{
     float:none !important;
     margin-bottom:400px;
     bottom:0px
-}*/
+}
 }
 @media screen and (max-width:805px){
 .card{
@@ -157,11 +157,11 @@ input[type = "text"]{
     float:none !important;
     margin:auto
 }
-/*.end_right{
+.end_right{
     float:none !important;
     margin-bottom:400px;
     bottom:0px
-}*/
+}
 }
 @media screen and (max-width:660px){
 input[type = "text"]{
@@ -175,9 +175,9 @@ input[type = "text"]{
     float:none !important;
     margin:auto
 }
-/*.end_right{
+.end_right{
     float:none !important;
     margin-bottom:400px;
     bottom:0px
-}*/
+}
 }
