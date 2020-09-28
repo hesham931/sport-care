@@ -133,6 +133,7 @@ input[type = "text"]{
     margin:auto
 }
 .end_right{
+    width:500px;
     float:none !important;
     margin:auto;
     margin-bottom:400px;
@@ -160,6 +161,7 @@ input[type = "text"]{
     margin-left:300px
 }
 .end_right{
+    width:500px;
     float:none !important;
     margin:auto;
     margin-bottom:400px;
@@ -179,6 +181,7 @@ input[type = "text"]{
     margin-left:300px
 }
 .end_right{
+    width:500px;
     float:none !important;
     margin:auto;
     margin-bottom:400px;
