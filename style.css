@@ -136,13 +136,13 @@ iframe{
         height:4100px !important
     }
     .middle_3{
-        width:500px
+        width:400px
     }
     .end_right{
         width:350px
     }
 iframe{
-    width:400px
+    width:300px
 }
 }
 @media screen and (max-width:660px){
