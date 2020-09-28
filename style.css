@@ -47,7 +47,7 @@ button[type = "button"]{
     padding:20px
 }
 .middle_3{
-    width:800px;
+    width:auto;
     height:500px;
     background-color: rgb(167, 166, 166);
     font-size:25px;
