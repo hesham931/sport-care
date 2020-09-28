@@ -62,6 +62,8 @@ iframe{
     height:600px;
     margin:auto
 }
+
+/********************************************/
 .end{
     padding:20px
 }
@@ -72,22 +74,6 @@ iframe{
 a[href = "#top"] {
     text-decoration: none
 }
-.autharized {
-    width:100%;
-    text-align: center  
-}
-.autharized a{
-    text-decoration: none
-}
-.end_right{
-    position:relative;
-    bottom:500px;
-    padding:30px;
-    width:600px;
-    height:70px;
-    font-size:30px;
-    margin-bottom:-50px;
-}
 input[type = "text"]{
     width:300px;
     height:50px;
@@ -95,108 +81,80 @@ input[type = "text"]{
     border:none;
     border-radius: 10px
 }
+/**********************************************/
+.end_right{
+    position:relative;
+    bottom:500px;
+    padding:30px;
+    width:600px;
+    height:70px;
+    font-size:30px;
+    margin-bottom:-50px
+}
+.end_left{
+    margin:0px
+}
+.sub{
+    width:100px
+}
 .social{
     width:100%
 }
+.autharized {
+    width:100%;
+    text-align: center  
+}
+.autharized a{
+    text-decoration: none
+}
+/**************************************/
 @media screen and (max-width:991px){
-    .card{
-        margin:auto;
-        margin-bottom:40px;
-    }
-    .cards{
-        display: block !important;
-    }
-    .final_card{
-        width:50%;
-    }
-    .end_right{
-        position:relative;
-        bottom:500px;
-        padding:30px;
-        width:500px;
-        height:100px;
-        font-size:20px;
-        line-height: 40px;
-    }
-    /*.middle_3{
-        height:700px;
-        background-color: rgb(167, 166, 166);
-        font-size:25px;
-        margin:auto;
-        margin-bottom:50px;
-        margin-top:50px
-    }
-    iframe{
-        width:900px;
-        height:600px;
-        margin:auto
-    }*/
+.card{
+    margin:auto;
+    margin-bottom:40px
+}
+.cards{
+    display: block !important
+}
+.final_card{
+    width:50%
+}
+.end_right{
+    position:relative;
+    bottom:500px;
+    padding:30px;
+    width:500px;
+    height:100px;
+    font-size:20px;
+    line-height: 40px
+}
 }
 @media screen and (max-width:805px){
-    .card{
-        width:90%;
-        margin:auto;
-        margin-bottom:40px
-    }
-    .final_card{
-        width:90%
-    }
-    .middle{
-        height:4100px !important
-    }
-     /*.middle_3{
-        height:700px;
-        background-color: rgb(167, 166, 166);
-        font-size:25px;
-        margin:auto;
-        margin-bottom:50px;
-        margin-top:50px
-    }
-    iframe{
-        width:900px;
-        height:600px;
-        margin:auto
-    }*/
-.end_right{
-    width:350px
+.card{
+    width:90%;
+    margin:auto;
+    margin-bottom:40px
 }
+.final_card{
+    width:90%
+}
+.middle{
+    height:4100px !important
+}
+}
+@media screen and (max-width:825px){
+    .end_right{
+        width:310px
+    }
 }
 @media screen and (max-width:660px){
     .end_right{
-        width:300px
+        width:270px
     }
-    input[type = "text"]{
+    .end_left{
         width:250px
     }
-     /*.middle_3{
-        height:700px;
-        background-color: rgb(167, 166, 166);
-        font-size:25px;
-        margin:auto;
-        margin-bottom:50px;
-        margin-top:50px
-    }
-    iframe{
-        width:900px;
-        height:600px;
-        margin:auto
-    }*/
+input[type = "text"]{
+    width:250px
 }
-@media screen and (max-width:610px){
-    .end_right{
-        width:250px
-    }
-     /*.middle_3{
-        height:700px;
-        background-color: rgb(167, 166, 166);
-        font-size:25px;
-        margin:auto;
-        margin-bottom:50px;
-        margin-top:50px
-    }
-    iframe{
-        width:900px;
-        height:600px;
-        margin:auto
-    }*/
 }
