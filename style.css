@@ -34,17 +34,15 @@ button[type = "button"]{
     padding:20px
 }
 .middle_3{
+    width:800px;
+    height:500px;
     background-color: rgb(167, 166, 166);
     font-size:25px;
-    margin:80px
+    margin-bottom:50px
 }
 iframe{
-    width:1000px;
-    height:500px;
+    width:700px;
     margin:20px
-}
-.ifram{
-    display:block
 }
 .end{
     padding:20px
