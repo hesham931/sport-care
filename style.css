@@ -46,19 +46,21 @@ button[type = "button"]{
 .middle_2{
     padding:20px
 }
-.middle_3{
-    width:auto;
-    height:500px;
-    background-color: rgb(167, 166, 166);
-    font-size:25px;
-    margin-bottom:50px
-}
 img[alt = "heart"]{
     width:auto
 }
+.middle_3{
+    height:700px;
+    background-color: rgb(167, 166, 166);
+    font-size:25px;
+    margin:auto;
+    margin-bottom:50px;
+    margin-top:50px
+}
 iframe{
-    width:700px;
-    margin:20px
+    width:900px;
+    height:600px;
+    margin:auto
 }
 .end{
     padding:20px
@@ -116,12 +118,19 @@ input[type = "text"]{
         font-size:20px;
         line-height: 40px;
     }
-    .middle_3{
-    width:600px
-}
-iframe{
-    width:500px
-}
+    /*.middle_3{
+        height:700px;
+        background-color: rgb(167, 166, 166);
+        font-size:25px;
+        margin:auto;
+        margin-bottom:50px;
+        margin-top:50px
+    }
+    iframe{
+        width:900px;
+        height:600px;
+        margin:auto
+    }*/
 }
 @media screen and (max-width:805px){
     .card{
@@ -135,14 +144,21 @@ iframe{
     .middle{
         height:4100px !important
     }
-    .middle_3{
-        width:400px
+     /*.middle_3{
+        height:700px;
+        background-color: rgb(167, 166, 166);
+        font-size:25px;
+        margin:auto;
+        margin-bottom:50px;
+        margin-top:50px
     }
-    .end_right{
-        width:350px
-    }
-iframe{
-    width:300px
+    iframe{
+        width:900px;
+        height:600px;
+        margin:auto
+    }*/
+.end_right{
+    width:350px
 }
 }
 @media screen and (max-width:660px){
@@ -152,21 +168,35 @@ iframe{
     input[type = "text"]{
         width:250px
     }
-    .middle_3{
-        width:500px
+     /*.middle_3{
+        height:700px;
+        background-color: rgb(167, 166, 166);
+        font-size:25px;
+        margin:auto;
+        margin-bottom:50px;
+        margin-top:50px
     }
-iframe{
-    width:400px
-}
+    iframe{
+        width:900px;
+        height:600px;
+        margin:auto
+    }*/
 }
 @media screen and (max-width:610px){
     .end_right{
         width:250px
     }
-    .middle_3{
-        width:500px
+     /*.middle_3{
+        height:700px;
+        background-color: rgb(167, 166, 166);
+        font-size:25px;
+        margin:auto;
+        margin-bottom:50px;
+        margin-top:50px
     }
-iframe{
-    width:400px
-}
+    iframe{
+        width:900px;
+        height:600px;
+        margin:auto
+    }*/
 }
