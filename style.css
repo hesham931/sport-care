@@ -53,6 +53,9 @@ button[type = "button"]{
     font-size:25px;
     margin-bottom:50px
 }
+img[alt = "heart"]{
+    width:auto
+}
 iframe{
     width:700px;
     margin:20px
